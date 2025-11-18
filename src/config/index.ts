@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Ejecutiva sénior en Finanzalpes S.A.S., especializada en estrategia financiera, gestión de portafolios corporativos y planeación operativa.",
   lang: "es",
-  siteLogo: "/valeria-small.jpg",
+  siteLogo: "/valeria-small.png",
   navLinks: [
     { text: "Experiencia", href: "#experience" },
     { text: "Proyectos", href: "#projects" },
@@ -15,8 +15,7 @@ export const SITE_CONFIG: SiteConfig = {
   socialLinks: [
     { text: "LinkedIn", href: "https://finanzalpes.com/" },
     { text: "Correo Corporativo", href: "mailto:valeria.montoya@finanzalpes.com" },,
-    { text: "Calendario", href: "https://finanzalpes.com/calendar-vmontoya" },
-    { text: "Github", href: "https://github.com/SeguridadEnCloud" }
+    { text: "Calendario", href: "https://finanzalpes.com/calendar-vmontoya" }
   ],
   socialImage: "/valeria-og.png",
   canonicalURL: "https://valeria-montoya.vercel.app",
@@ -68,24 +67,24 @@ export const SITE_CONTENT: SiteContent = {
       name: "Informe Operativo Trimestral 2024",
       summary:
         "Reporte ejecutivo sobre métricas de liquidez, desempeño financiero y análisis de riesgo institucional.",
-      linkPreview: "/docs/informe-operativo-2024.pdf",
-      linkSource: "https://finanzalpes.com/track?ref=informe2024",
+      linkPreview: "/docs/reporte_ecopetrol(1).docx",
+      linkSource: "https://finanzalpes.com",
       image: "/project1.png",
     },
     {
       name: "Modelo de Optimización de Portafolios",
       summary:
         "Documento técnico sobre estrategias de diversificación, asignación de activos y gestión integral de riesgo.",
-      linkPreview: "/docs/optimizacion-portafolio.pdf",
-      linkSource: "https://finanzalpes.com/track?ref=portafolios",
+      linkPreview: "/docs/reporte_epm.docx",
+      linkSource: "https://finanzalpes.com",
       image: "/project2.png",
     },
     {
       name: "Auditoría Interna de Cumplimiento 2023",
       summary:
         "Evaluación detallada de cumplimiento normativo según lineamientos de la Superintendencia Financiera.",
-      linkPreview: "/docs/auditoria-2023.pdf",
-      linkSource: "https://finanzalpes.com/track?ref=auditoria",
+      linkPreview: "/docs/reportes_empresas.xlsx",
+      linkSource: "https://finanzalpes.com",
       image: "/project3.png",
     },
   ],
