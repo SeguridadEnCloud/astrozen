@@ -95,7 +95,7 @@ export const SITE_CONTENT: SiteContent = {
 
       He trabajado durante más de una década optimizando procesos financieros, gestionando riesgos y fortaleciendo relaciones con inversionistas. Me caracterizo por un liderazgo colaborativo, una visión estratégica y una orientación constante a resultados.
     `,
-    image: "/valeria-big.jpg",
+    image: "/valeria-big.png",
   },
 };
 
