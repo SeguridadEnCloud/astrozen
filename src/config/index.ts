@@ -34,7 +34,8 @@ export const SITE_CONTENT = {
     description:
       "Ejecutiva sénior en Finanzalpes S.A.S., especializada en estrategia financiera, gestión de portafolios corporativos y planeación operativa. Más de 12 años de experiencia en banca digital y fintech.",
     email: "valeria.montoya@finanzalpes.com",
-    image: "/valeria-small.jpg", // reemplaza la imagen en /public
+    image: "/valeria-small.jpg",
+    summary: "", // <— requerido por el build
   },
 
   experience: [
@@ -44,9 +45,10 @@ export const SITE_CONTENT = {
       period: "Ene 2020 — Actualidad",
       bullets: [
         "Lidero la planeación financiera corporativa, gestionando la asignación de capital y portafolios de inversión institucional.",
-        "Superviso el cumplimiento regulatorio y las auditorías financieras externas.",
+        "Superviso el cumplimiento regulatorio y auditorías externas.",
         "Implementé modelos operativos que redujeron costos en un 18% durante el primer año."
       ],
+      summary: "", // <— requerido
     },
     {
       company: "Bancovalor",
@@ -56,6 +58,7 @@ export const SITE_CONTENT = {
         "Desarrollo de modelos de riesgo, proyecciones financieras y análisis de liquidez.",
         "Coordinación de procesos de planeación estratégica para banca digital."
       ],
+      summary: "", // <— requerido
     }
   ],
 
@@ -66,7 +69,8 @@ export const SITE_CONTENT = {
         "Reporte ejecutivo sobre desempeño financiero, métricas de liquidez, flujos de inversión y análisis de riesgo corporativo.",
       image: "/project1.png",
       source: "https://finanzalpes.com/docs/reporte-operativo.pdf",
-      preview: "https://finanzalpes.com/track?ref=proyecto1"
+      preview: "https://finanzalpes.com/track?ref=proyecto1",
+      summary: "", // <— requerido
     },
     {
       name: "Modelo de Optimización de Portafolios",
@@ -74,32 +78,28 @@ export const SITE_CONTENT = {
         "Documento interno sobre estrategias de diversificación y optimización de activos institucionales.",
       image: "/project2.png",
       source: "https://finanzalpes.com/docs/optimizacion.pdf",
-      preview: "https://finanzalpes.com/track?ref=proyecto2"
+      preview: "https://finanzalpes.com/track?ref=proyecto2",
+      summary: "", // <— requerido
     },
     {
       name: "Auditoría Interna 2023",
       description:
-        "Evaluación detallada de cumplimiento normativo y matriz de riesgos según lineamientos de la Superintendencia Financiera.",
+        "Evaluación detallada de cumplimiento normativo y matriz de riesgos.",
       image: "/project3.png",
       source: "https://finanzalpes.com/docs/auditoria.pdf",
-      preview: "https://finanzalpes.com/track?ref=proyecto3"
+      preview: "https://finanzalpes.com/track?ref=proyecto3",
+      summary: "", // <— requerido
     }
   ],
 
-  // Dentro de hero:
-  hiddenNotes: [
-    "alt-email: v.montoya.admin@finanzalpes.com",
-    "internal-ext: 2214",
-    "last-update: 2024-12",
-  ],
-
-
   about: {
     bio:
-      "Soy Valeria Montoya, ejecutiva financiera con experiencia en banca digital, fintech y gestión estratégica de portafolios. Actualmente lidero la operación financiera de Finanzalpes S.A.S., con un enfoque en eficiencia, escalabilidad corporativa y cumplimiento regulatorio. Me caracteriza el liderazgo colaborativo, la visión estratégica y la orientación a resultados.",
-    image: "/valeria-big.jpg"
+      "Soy Valeria Montoya, ejecutiva financiera con experiencia en banca digital, fintech y gestión estratégica. Lidero la operación financiera de Finanzalpes S.A.S., con un enfoque en eficiencia y cumplimiento regulatorio.",
+    image: "/valeria-big.jpg",
+    summary: "", // <— requerido
   }
 };
+
 
 
 
