@@ -13,9 +13,9 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Sobre mí", href: "#about" },
   ],
   socialLinks: [
-    { text: "LinkedIn", href: "https://www.finanzalpes.com/" },
-    { text: "Correo Corporativo", href: "mailto:valeria.montoya@finanzalpes.com" },
-    { text: "Calendario", href: "https://www.finanzalpes.com/calendar-vmontoya" }
+    { text: "LinkedIn", href: "https://www.finanzalpes.xyz/" },
+    { text: "Correo Corporativo", href: "mailto:valeria.montoya@finanzalpes.xyz" },
+    { text: "Calendario", href: "https://www.finanzalpes.xyz/calendar-vmontoya" }
   ],
   socialImage: "/valeria-og.png",
   canonicalURL: "https://valeria-montoya.vercel.app",
@@ -27,7 +27,7 @@ export const SITE_CONTENT: SiteContent = {
     specialty: "Chief Financial Operations Officer",
     summary:
       "Ejecutiva sénior en Finanzalpes S.A.S., enfocada en estrategia financiera, optimización operativa y gestión de portafolios corporativos. Más de 12 años de experiencia en banca digital y fintech.",
-    email: "valeria.montoya@finanzalpes.com",
+    email: "valeria.montoya@finanzalpes.xyz",
   },
 
   experience: [
