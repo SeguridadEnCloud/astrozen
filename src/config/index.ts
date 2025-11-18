@@ -1,98 +1,106 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Valeria Montoya — Chief Financial Operations Officer",
+  author: "Finanzalpes S.A.S.",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-  lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+    "Ejecutiva sénior en Finanzalpes S.A.S., especializada en estrategia financiera, gestión de portafolios corporativos y planeación operativa. Más de 12 años de experiencia en banca digital y fintech.",
+  lang: "es",
+  siteLogo: "/valeria-small.jpg", // reemplazar imagen en /public
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+    { text: "Experiencia", href: "#experience" },
+    { text: "Proyectos", href: "#projects" },
+    { text: "Sobre mí", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    {
+      text: "LinkedIn",
+      href: "https://linkedin.com/valeria-montoya", 
+    },
+    {
+      text: "Calendario",
+      href: "https://finanzalpes.com/", // honeytoken
+    }
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/valeria-og.png", // crea esta imagen, puede ser un banner
+  canonicalURL: "https://valeria-montoya.vercel.app",
 };
 
-export const SITE_CONTENT: SiteContent = {
+
+export const SITE_CONTENT = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
-    summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+    name: "Valeria Montoya",
+    title: "Chief Financial Operations Officer",
+    description:
+      "Ejecutiva sénior en Finanzalpes S.A.S., especializada en estrategia financiera, gestión de portafolios corporativos y planeación operativa. Más de 12 años de experiencia en banca digital y fintech.",
+    email: "valeria.montoya@finanzalpes.com",
+    image: "/valeria-small.jpg", // reemplaza la imagen en /public
   },
+
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
-      summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+      company: "Finanzalpes S.A.S.",
+      role: "Chief Financial Operations Officer (CFOO)",
+      period: "Ene 2020 — Actualidad",
+      bullets: [
+        "Lidero la planeación financiera corporativa, gestionando la asignación de capital y portafolios de inversión institucional.",
+        "Superviso el cumplimiento regulatorio y las auditorías financieras externas.",
+        "Implementé modelos operativos que redujeron costos en un 18% durante el primer año."
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+      company: "Bancovalor",
+      role: "Directora de Planeación Financiera",
+      period: "Feb 2015 — Dic 2019",
+      bullets: [
+        "Desarrollo de modelos de riesgo, proyecciones financieras y análisis de liquidez.",
+        "Coordinación de procesos de planeación estratégica para banca digital."
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
+    }
   ],
+
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Informe Operativo Trimestral 2024",
+      description:
+        "Reporte ejecutivo sobre desempeño financiero, métricas de liquidez, flujos de inversión y análisis de riesgo corporativo.",
+      image: "/project1.png",
+      source: "https://finanzalpes.com/docs/reporte-operativo.pdf",
+      preview: "https://finanzalpes.com/track?ref=proyecto1"
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Modelo de Optimización de Portafolios",
+      description:
+        "Documento interno sobre estrategias de diversificación y optimización de activos institucionales.",
+      image: "/project2.png",
+      source: "https://finanzalpes.com/docs/optimizacion.pdf",
+      preview: "https://finanzalpes.com/track?ref=proyecto2"
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
-    },
+      name: "Auditoría Interna 2023",
+      description:
+        "Evaluación detallada de cumplimiento normativo y matriz de riesgos según lineamientos de la Superintendencia Financiera.",
+      image: "/project3.png",
+      source: "https://finanzalpes.com/docs/auditoria.pdf",
+      preview: "https://finanzalpes.com/track?ref=proyecto3"
+    }
   ],
-  about: {
-    description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "/alejandro-big.jpg",
-  },
+  // Dentro de hero:
+  hiddenNotes: [
+    "alt-email: v.montoya.admin@finanzalpes.com",
+    "internal-ext: 2214",
+    "last-update: 2024-12",
+  ],
+
+
+  about: {
+    bio:
+      "Soy Valeria Montoya, ejecutiva financiera con experiencia en banca digital, fintech y gestión estratégica de portafolios. Actualmente lidero la operación financiera de Finanzalpes S.A.S., con un enfoque en eficiencia, escalabilidad corporativa y cumplimiento regulatorio. Me caracteriza el liderazgo colaborativo, la visión estratégica y la orientación a resultados.",
+    image: "/valeria-big.jpg"
+  }
 };
+
+
 
 // #5755ff
