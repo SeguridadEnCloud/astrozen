@@ -13,9 +13,9 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Sobre mí", href: "#about" },
   ],
   socialLinks: [
-    { text: "LinkedIn", href: "https://finanzalpes.com/" },
+    { text: "LinkedIn", href: "https://www.finanzalpes.com/" },
     { text: "Correo Corporativo", href: "mailto:valeria.montoya@finanzalpes.com" },
-    { text: "Calendario", href: "https://finanzalpes.com/calendar-vmontoya" }
+    { text: "Calendario", href: "https://www.finanzalpes.com/calendar-vmontoya" }
   ],
   socialImage: "/valeria-og.png",
   canonicalURL: "https://valeria-montoya.vercel.app",
