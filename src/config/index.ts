@@ -68,7 +68,7 @@ export const SITE_CONTENT: SiteContent = {
       summary:
         "Reporte ejecutivo sobre métricas de liquidez, desempeño financiero y análisis de riesgo institucional.",
       linkPreview: "/docs/reporte_ecopetrol(1).docx",
-      linkSource: "https://finanzalpes.com",
+      linkSource: "https://docs.google.com/document/d/1RurRrBOAIfyk0ge4CPi9BnmOMK0c1gIm/edit?usp=sharing&ouid=112191974980872008817&rtpof=true&sd=true",
       image: "/project1.png",
     },
     {
@@ -76,7 +76,7 @@ export const SITE_CONTENT: SiteContent = {
       summary:
         "Documento técnico sobre estrategias de diversificación, asignación de activos y gestión integral de riesgo.",
       linkPreview: "/docs/reporte_epm.docx",
-      linkSource: "https://finanzalpes.com",
+      linkSource: "https://docs.google.com/document/d/1qgXrJbmqEAiQ0-HyO7bS-CeNaSFUopP_/edit?usp=sharing&ouid=112191974980872008817&rtpof=true&sd=true",
       image: "/project2.png",
     },
     {
@@ -84,7 +84,7 @@ export const SITE_CONTENT: SiteContent = {
       summary:
         "Evaluación detallada de cumplimiento normativo según lineamientos de la Superintendencia Financiera.",
       linkPreview: "/docs/reportes_empresas.xlsx",
-      linkSource: "https://finanzalpes.com",
+      linkSource: "https://docs.google.com/spreadsheets/d/1hHKwe86QcelxbQ1Q1klKEJpE7IM--wR3/edit?usp=sharing&ouid=112191974980872008817&rtpof=true&sd=true",
       image: "/project3.png",
     },
   ],
